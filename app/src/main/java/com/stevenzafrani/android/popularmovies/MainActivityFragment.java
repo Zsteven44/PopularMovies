@@ -17,6 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -253,6 +254,10 @@ public class MainActivityFragment extends Fragment {
 
                 }
                 movieAdapter.notifyDataSetChanged();
+            } else {
+                CharSequence text = "There seems to be an error, please check your network connectivity.";
+                int duration = Toast.LENGTH_SHORT;
+                Toast.makeText(getActivity(), text, duration).show();
             }
         }
     }

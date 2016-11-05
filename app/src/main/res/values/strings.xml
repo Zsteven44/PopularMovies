@@ -6,9 +6,9 @@
 
     <string name="pref_sort_key">sort</string>
     <string name="pref_sort_label">Sort Criteria</string>
-    <string name="pref_sort_popular">popular</string>
-    <string name="pref_sort_top">top_rated</string>
-    <string name="pref_sort_default" translatable="false">popularity.desc</string>
+    <string name="pref_sort_popular" translatable="false">popular</string>
+    <string name="pref_sort_top" translatable="false">top_rated</string>
+    <string name="pref_sort_default" translatable="false">popular</string>
 
     <string name="pref_sort_label_popular">By Popularity</string>
     <string name="pref_sort_label_top">By Top-Rated</string>
