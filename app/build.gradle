@@ -24,7 +24,7 @@ android {
 
         // Enter your API key here:
 
-        it.buildConfigField 'String', 'MOVIESDB_API_KEY', "\"xxxxxxxxxxxxxxxxx\""
+        it.buildConfigField 'String', 'MOVIESDB_API_KEY', "\"0e2b98801160448a67eabb4b9058ee51\""
     }
 }
 
